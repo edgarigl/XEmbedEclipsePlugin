@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <!-- XEmbed View -->
+   <extension
+         id="com.greensocs.xembed.fragment"
+         point="org.eclipse.e4.workbench.model">
+      <fragment
+            apply="notexists"
+            uri="fragment.e4xmi">
+      </fragment>
+   </extension>
+   
+   <!-- Window ID Variable -->
+   <extension point="org.eclipse.core.variables.dynamicVariables">
+      <variable 
+         name="xembed_window_id"
+         resolver="com.greensocs.xembed.parts.XEmbedWindowIdResolver"
+         description="Opens an XEmbed view and returns the X Window ID (hex value)">
+      </variable>
+   </extension>
+
+</plugin>
