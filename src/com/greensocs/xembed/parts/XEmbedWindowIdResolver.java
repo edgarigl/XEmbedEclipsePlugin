@@ -41,7 +41,7 @@ public class XEmbedWindowIdResolver implements IDynamicVariableResolver {
 				try {
 					/* close current view */
 					for (IViewReference view : page.getViewReferences()) {
-						if (view.getTitle().contentEquals("XEmbed View")) {
+						if (view.getTitle().contentEquals("XEmbedView")) {
 							page.hideView(view);
 						}
 					}
