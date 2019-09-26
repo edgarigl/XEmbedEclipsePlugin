@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: XEmbed
 Bundle-SymbolicName: XEmbed;singleton:=true
-Bundle-Version: 1.0.0
+Bundle-Version: 1.0.1
 Bundle-Vendor: GreenSocs
 Require-Bundle: javax.inject,
  org.eclipse.osgi,
