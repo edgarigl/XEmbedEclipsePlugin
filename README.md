@@ -22,7 +22,14 @@ This plugin adds a new view named _XEmbedView_ for embedding an external window.
 
 You will be asked to restart Eclipse so that the new plug-in is loaded.
 
+## How the plugin works
+
+When the `xembed_window_id` dynamic variable is read from a launch configuration,
+it opens the XEmbedView view, creates a composite, and returns its window ID (hex value).
+
 ## Modify or generate the plugin
+
+You only need to do the following operations if you want to modify the plugin.
 
 This repository contains two eclipse projects.
 You need eclipse Plug-in Development Environment (PDE) to import or open the
@@ -43,9 +50,4 @@ To test the plug-in you can follow the following steps:
 4. In the list, check XEmbedFeature plug-in
 5. Then select the destination **Archive file** and choose the path.
 6. Press **Finish** button.
-
-## How the plugin works
-
-When the `xembed_window_id` dynamic variable is read from a launch configuration,
-it opens the XEmbedView view, creates a composite, and returns its window ID (hex value).
 
