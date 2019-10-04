@@ -5,7 +5,7 @@ This plugin adds a new view named _XEmbedView_ for embedding an external window.
 
 ## Install the plugin in eclipse
 
-1.  Download [XEmbedPluginFeature.zip](feature/XEmbedPluginFeature.zip).
+1.  Download [XEmbedPluginFeature.zip](https://github.com/GreenSocs/XEmbedEclipsePlugin/blob/master/feature/XEmbedPluginFeature.zip).
 2.  Open Eclipse CDT.
 3.  In the main **Help** menu, select the **Install New Software** entry. It
     opens the _Install_ window.
